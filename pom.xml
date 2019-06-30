@@ -46,6 +46,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/JulioAvalos/SFT-Pet-Clinic.git</developerConnection>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
 
 </project>
