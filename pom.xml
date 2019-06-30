@@ -45,8 +45,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:JulioAvalos/SFT-Pet-Clinic.git</developerConnection>
-      <tag>sfg-pet-clinic-0.0.1</tag>
+        <developerConnection>scm:git:https://github.com/JulioAvalos/SFT-Pet-Clinic.git</developerConnection>
   </scm>
 
 </project>
