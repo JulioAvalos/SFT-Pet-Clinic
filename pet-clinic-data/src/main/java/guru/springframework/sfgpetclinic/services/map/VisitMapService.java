@@ -2,12 +2,14 @@ package guru.springframework.sfgpetclinic.services.map;
 
 import guru.springframework.sfgpetclinic.model.Visit;
 import guru.springframework.sfgpetclinic.services.VisitService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Objects;
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
 
 
@@ -24,7 +26,7 @@ public class VisitMapService extends AbstractMapService<Visit, Long> implements 
     @Override
     public Visit save(Visit visit) {
 
-        if (Objects.isNull(visit.getPet()) || Objects.isNull(visit.getPet().getOwner()) || Objects.isNull(visit.getPet().getId())
+        if (Objects.isNull(visit.getPet()) || Objects.isNull(visit.getPet().getOwner())
                 || Objects.isNull(visit.getPet().getOwner().getId())) {
             throw new RuntimeException("Invalid Visit");
         }
