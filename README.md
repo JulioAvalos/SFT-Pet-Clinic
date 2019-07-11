@@ -1,5 +1,6 @@
-# SFT-Pet-Clinic
+
 [![CircleCI](https://circleci.com/gh/JulioAvalos/SFT-Pet-Clinic.svg?style=svg)](https://circleci.com/gh/JulioAvalos/SFT-Pet-Clinic)
+# SFT-Pet-Clinic
 
 Sample pet clinic application using spring boot
 
