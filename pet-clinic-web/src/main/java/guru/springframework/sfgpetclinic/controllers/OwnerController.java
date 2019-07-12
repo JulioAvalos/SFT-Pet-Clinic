@@ -44,13 +44,12 @@ public class OwnerController {
             owner.setLastName("");
         }
 
-        List<Owner> results = ownerService.findAllByLastNameLike(owner.getLastName());
+        List<Owner> results = ownerService.findAllByLastNameLike("%" + owner.getLastName() + "%");
 
-        if(results.isEmpty()){
-            result.rejectValue("lastName", "notFound","not found");
+        if (results.isEmpty()) {
+            result.rejectValue("lastName", "notFound", "not found");
             return "owners/findOwners";
-        }
-        else if(results.size() == 1 ){
+        } else if (results.size() == 1) {
             owner = results.get(0);
             return "redirect:/owners/" + owner.getId();
         } else {
