@@ -1,7 +1,10 @@
 package guru.springframework.sfgpetclinic.controllers;
 
 import guru.springframework.sfgpetclinic.model.Owner;
+import guru.springframework.sfgpetclinic.model.PetType;
 import guru.springframework.sfgpetclinic.services.OwnerService;
+import guru.springframework.sfgpetclinic.services.PetService;
+import guru.springframework.sfgpetclinic.services.PetTypeService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -30,10 +33,20 @@ class OwnerControllerTest {
     @Mock
     OwnerService ownerService;
 
+    @Mock
+    PetTypeService petTypeService;
+
+    @Mock
+    PetService petService;
+
     @InjectMocks
     OwnerController controller;
 
+    Set<PetType> petTypes;
+
     Set<Owner> owners;
+
+    Owner owner;
 
     MockMvc mockMvc;
 
