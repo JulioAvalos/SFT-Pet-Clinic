@@ -1,3 +1,5 @@
 guru/springframework/sfgpetclinic/services/springdatajpa/OwnerSDJpaServiceTest.class
 guru/springframework/sfgpetclinic/services/map/OwnerMapServiceTest.class
 guru/springframework/sfgpetclinic/SfgPetClinicApplicationTests.class
+guru/springframework/sfgpetclinic/controllers/OwnerControllerTest.class
+guru/springframework/sfgpetclinic/controllers/PetControllerTest.class

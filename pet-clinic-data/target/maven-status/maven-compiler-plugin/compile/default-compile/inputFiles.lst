@@ -19,7 +19,6 @@
 /Users/julioavalos/Documents/Spring/SFT-Pet-Clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/BaseEntity.java
 /Users/julioavalos/Documents/Spring/SFT-Pet-Clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/repositories/SpecialtyRepository.java
 /Users/julioavalos/Documents/Spring/SFT-Pet-Clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Visit.java
-/Users/julioavalos/Documents/Spring/SFT-Pet-Clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/repositories/VisitsRepository.java
 /Users/julioavalos/Documents/Spring/SFT-Pet-Clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Vet.java
 /Users/julioavalos/Documents/Spring/SFT-Pet-Clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/springdatajpa/VisitSDJpaService.java
 /Users/julioavalos/Documents/Spring/SFT-Pet-Clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/springdatajpa/PetTypeSDJpaService.java
@@ -32,3 +31,4 @@
 /Users/julioavalos/Documents/Spring/SFT-Pet-Clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/SpecialtyMapService.java
 /Users/julioavalos/Documents/Spring/SFT-Pet-Clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/springdatajpa/PetSDJpaService.java
 /Users/julioavalos/Documents/Spring/SFT-Pet-Clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/VetService.java
+/Users/julioavalos/Documents/Spring/SFT-Pet-Clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/repositories/VisitRepository.java
